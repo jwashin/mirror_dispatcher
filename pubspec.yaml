@@ -1,6 +1,6 @@
 name: mirror_dispatcher
-description: Method Dispatcher using dart:mirrors
-version: 1.0.0
+description: Method Dispatcher using dart:mirrors. Facilitates invoking an API for JSON-RPC server side implementation.
+version: 1.0.1
 repository: https://github.com/jwashin/mirror_dispatcher
 
 environment:
