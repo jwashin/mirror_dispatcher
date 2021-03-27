@@ -68,7 +68,7 @@ class MirrorDispatcher implements Dispatcher {
 }
 
 /// Find and return the method in the class of the mirror of the instance.
-/// Throw MethowNorFound if the methodName is private or an attribute
+/// Throw MethodNotFound if the methodName is private or an attribute
 /// or not found,
 Symbol getMethodMirror(dynamic instanceMirror, String methodName) {
   ClassMirror classMirror = instanceMirror.type;
